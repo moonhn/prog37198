@@ -60,7 +60,11 @@
     <ClCompile Include="GameLevel3.cpp">
       <Filter>Levels</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="LoadingScene.cpp">
+=======
+    <ClCompile Include="GameSetupState.cpp">
+>>>>>>> c3f70d6428eb94b9f51e2836e003808388233434
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -104,7 +108,11 @@
     <ClInclude Include="GameLevel3.h">
       <Filter>Levels</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="LoadingScene.h">
+=======
+    <ClInclude Include="GameSetupState.h">
+>>>>>>> c3f70d6428eb94b9f51e2836e003808388233434
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,8 +1,37 @@
+<<<<<<< HEAD
 ﻿  LoadingScene.cpp
 C:\Users\nguye\Documents\Game\Assignment2\Assignment2Game\LoadingScene.cpp(55,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Generating code
   1 of 477 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     5 functions had inline decision re-evaluated but remain unchanged
+=======
+﻿  Enemy.cpp
+  GameLevel1.cpp
+  GameLevel2.cpp
+  GameLevel3.cpp
+  GameManager.cpp
+  GameSetupState.cpp
+  GameState.cpp
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(71,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(76,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(104,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(109,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(114,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(133,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(140,71): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(140,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  HealthBar.cpp
+  main.cpp
+  MainMenuState.cpp
+  PauseMenuPopupState.cpp
+  Player.cpp
+  ProgressBar.cpp
+  VictoryScreen.cpp
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\VictoryScreen.cpp(85,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 945 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+>>>>>>> c3f70d6428eb94b9f51e2836e003808388233434
   Finished generating code
   Assignment2Game.vcxproj -> C:\Users\nguye\Documents\Game\Assignment2\x64\Release\Assignment2Game.exe
