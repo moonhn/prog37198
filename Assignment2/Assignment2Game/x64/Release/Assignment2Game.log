@@ -1,88 +1,121 @@
 ﻿  Enemy.cpp
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
   GameLevel1.cpp
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.h(16,1): error C2011: 'GameLevel1': 'class' type redefinition
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.cpp(4,18): error C2027: use of undefined type 'GameLevel1'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.cpp(6,2): error C2065: 'bgSpriteTex': undeclared identifier
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.cpp(10,13): error C2352: 'GameState::Enter': illegal call of non-static member function
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.h(37): message : see declaration of 'GameState::Enter'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.cpp(12,18): error C2027: use of undefined type 'GameLevel1'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.h(16,1): error C2011: 'GameLevel1': 'class' type redefinition
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.cpp(4,18): error C2027: use of undefined type 'GameLevel1'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.cpp(6,2): error C2065: 'bgSpriteTex': undeclared identifier
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.cpp(10,13): error C2352: 'GameState::Enter': illegal call of non-static member function
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.h(37): message : see declaration of 'GameState::Enter'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.cpp(12,18): error C2027: use of undefined type 'GameLevel1'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
   GameLevel2.cpp
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel2.h(16,1): error C2011: 'GameLevel2': 'class' type redefinition
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel2.h(3): message : see declaration of 'GameLevel2'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel2.cpp(4,18): error C2027: use of undefined type 'GameLevel2'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel2.h(3): message : see declaration of 'GameLevel2'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel2.cpp(6,2): error C2065: 'bgSpriteTex': undeclared identifier
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel2.cpp(11,13): error C2352: 'GameState::Enter': illegal call of non-static member function
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.h(37): message : see declaration of 'GameState::Enter'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel2.cpp(13,18): error C2027: use of undefined type 'GameLevel2'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel2.h(3): message : see declaration of 'GameLevel2'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel2.h(16,1): error C2011: 'GameLevel2': 'class' type redefinition
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel2.h(3): message : see declaration of 'GameLevel2'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel2.cpp(4,18): error C2027: use of undefined type 'GameLevel2'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel2.h(3): message : see declaration of 'GameLevel2'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel2.cpp(6,2): error C2065: 'bgSpriteTex': undeclared identifier
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel2.cpp(11,13): error C2352: 'GameState::Enter': illegal call of non-static member function
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.h(37): message : see declaration of 'GameState::Enter'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel2.cpp(13,18): error C2027: use of undefined type 'GameLevel2'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel2.h(3): message : see declaration of 'GameLevel2'
   GameLevel3.cpp
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel3.h(17,1): error C2011: 'GameLevel3': 'class' type redefinition
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel3.h(4): message : see declaration of 'GameLevel3'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel3.cpp(4,18): error C2027: use of undefined type 'GameLevel3'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel3.h(4): message : see declaration of 'GameLevel3'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel3.cpp(6,2): error C2065: 'bgSpriteTex': undeclared identifier
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel3.cpp(11,13): error C2352: 'GameState::Enter': illegal call of non-static member function
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.h(37): message : see declaration of 'GameState::Enter'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel3.cpp(13,18): error C2027: use of undefined type 'GameLevel3'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel3.h(4): message : see declaration of 'GameLevel3'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel3.h(17,1): error C2011: 'GameLevel3': 'class' type redefinition
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel3.h(4): message : see declaration of 'GameLevel3'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel3.cpp(4,18): error C2027: use of undefined type 'GameLevel3'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel3.h(4): message : see declaration of 'GameLevel3'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel3.cpp(6,2): error C2065: 'bgSpriteTex': undeclared identifier
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel3.cpp(11,13): error C2352: 'GameState::Enter': illegal call of non-static member function
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.h(37): message : see declaration of 'GameState::Enter'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel3.cpp(13,18): error C2027: use of undefined type 'GameLevel3'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel3.h(4): message : see declaration of 'GameLevel3'
   GameManager.cpp
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.h(16,1): error C2011: 'GameLevel1': 'class' type redefinition
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel2.h(16,1): error C2011: 'GameLevel2': 'class' type redefinition
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel2.h(3): message : see declaration of 'GameLevel2'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel3.h(17,1): error C2011: 'GameLevel3': 'class' type redefinition
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel3.h(4): message : see declaration of 'GameLevel3'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameManager.cpp(52,60): error C2027: use of undefined type 'GameLevel1'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameManager.cpp(56,60): error C2027: use of undefined type 'GameLevel2'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel2.h(3): message : see declaration of 'GameLevel2'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameManager.cpp(60,60): error C2027: use of undefined type 'GameLevel3'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel3.h(4): message : see declaration of 'GameLevel3'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.h(16,1): error C2011: 'GameLevel1': 'class' type redefinition
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel2.h(16,1): error C2011: 'GameLevel2': 'class' type redefinition
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel2.h(3): message : see declaration of 'GameLevel2'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel3.h(17,1): error C2011: 'GameLevel3': 'class' type redefinition
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel3.h(4): message : see declaration of 'GameLevel3'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameManager.cpp(52,60): error C2027: use of undefined type 'GameLevel1'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameManager.cpp(56,60): error C2027: use of undefined type 'GameLevel2'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel2.h(3): message : see declaration of 'GameLevel2'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameManager.cpp(60,60): error C2027: use of undefined type 'GameLevel3'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel3.h(4): message : see declaration of 'GameLevel3'
   GameState.cpp
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(95,41): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(96,41): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(98,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(100,24): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(102,52): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(103,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(105,24): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(108,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(114,28): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(127,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(131,61): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(133,28): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(134,71): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(134,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(169,22): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(172,21): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(220,22): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(258,22): error C2039: 'GetGameManager': is not a member of 'Game'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(95,41): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(96,41): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(98,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(100,24): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(102,52): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(103,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(105,24): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(108,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(114,28): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(127,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(131,61): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(133,28): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(134,71): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(134,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(169,22): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(172,21): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(220,22): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameState.cpp(258,22): error C2039: 'GetGameManager': is not a member of 'Game'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(18): message : see declaration of 'Game'
   HealthBar.cpp
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\HealthBar.cpp(2,10): fatal error C1083: Cannot open include file: 'Game.h': No such file or directory
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\HealthBar.cpp(2,10): fatal error C1083: Cannot open include file: 'Game.h': No such file or directory
   main.cpp
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
   MainMenuState.cpp
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.h(16,1): error C2011: 'GameLevel1': 'class' type redefinition
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\MainMenuState.cpp(25,59): error C2027: use of undefined type 'GameLevel1'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.h(16,1): error C2011: 'GameLevel1': 'class' type redefinition
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\MainMenuState.cpp(25,59): error C2027: use of undefined type 'GameLevel1'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\GameLevel1.h(4): message : see declaration of 'GameLevel1'
   PauseMenuPopupState.cpp
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
   Player.cpp
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
   ProgressBar.cpp
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
   VictoryScreen.cpp
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\VictoryScreen.cpp(85,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2Game\VictoryScreen.cpp(85,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data

@@ -1,11 +1,22 @@
 ﻿  AudioManager.cpp
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\AudioManager.cpp(98,35): warning C4150: deletion of pointer to incomplete type '_Mix_Music'; no destructor called
-C:\Users\moonh\Desktop\prog37198\Assignment2\packages\sdl2_mixer.nuget.2.6.2\build\native\include\SDL_mixer.h(264): message : see declaration of '_Mix_Music'
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\AudioManager.cpp(113,28): warning C4150: deletion of pointer to incomplete type '_Mix_Music'; no destructor called
-C:\Users\moonh\Desktop\prog37198\Assignment2\packages\sdl2_mixer.nuget.2.6.2\build\native\include\SDL_mixer.h(264): message : see declaration of '_Mix_Music'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\AudioManager.cpp(98,35): warning C4150: deletion of pointer to incomplete type '_Mix_Music'; no destructor called
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\packages\sdl2_mixer.nuget.2.6.2\build\native\include\SDL_mixer.h(264): message : see declaration of '_Mix_Music'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\AudioManager.cpp(113,28): warning C4150: deletion of pointer to incomplete type '_Mix_Music'; no destructor called
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\packages\sdl2_mixer.nuget.2.6.2\build\native\include\SDL_mixer.h(264): message : see declaration of '_Mix_Music'
   Button.cpp
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
   GameEngine.cpp
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
   ScreenState.cpp
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
   SpriteEx.cpp
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nguye\Documents\Game\prog37198\Assignment2\Assignment2\GameEngine.h(27,29): error C2238: unexpected token(s) preceding ';'
   StateMachine.cpp
-  Assignment2.vcxproj -> C:\Users\moonh\Desktop\prog37198\Assignment2\x64\Release\Assignment2Engine.lib
