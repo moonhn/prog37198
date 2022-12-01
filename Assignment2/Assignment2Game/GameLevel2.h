@@ -11,8 +11,3 @@ public:
 	void Exit() override;
 
 };
-
-class GameLevel2
-{
-};
-
