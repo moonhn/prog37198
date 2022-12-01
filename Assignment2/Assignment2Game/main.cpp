@@ -1,4 +1,3 @@
-
 #include "SDL.h"
 #include "GameEngine.h"
 #include "GameManager.h"

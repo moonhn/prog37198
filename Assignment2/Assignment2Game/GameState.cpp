@@ -137,7 +137,6 @@ void GameState::Render()
 	m_pFont = TTF_OpenFont("Font/spaceNorm.ttf", 35);
 	ScreenState::Render();
 
-
 }
 
 

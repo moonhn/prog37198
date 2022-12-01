@@ -60,6 +60,9 @@
     <ClCompile Include="GameLevel3.cpp">
       <Filter>Levels</Filter>
     </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Enemy.h">
@@ -100,6 +103,9 @@
     </ClInclude>
     <ClInclude Include="GameLevel3.h">
       <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

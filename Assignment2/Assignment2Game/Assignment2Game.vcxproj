@@ -29,6 +29,7 @@
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="GameState.cpp" />
     <ClCompile Include="HealthBar.cpp" />
+    <ClCompile Include="LoadingScene.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainMenuState.cpp" />
     <ClCompile Include="PauseMenuPopupState.cpp" />
@@ -44,6 +45,7 @@
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="GameState.h" />
     <ClInclude Include="HealthBar.h" />
+    <ClInclude Include="LoadingScene.h" />
     <ClInclude Include="MainMenuState.h" />
     <ClInclude Include="PauseMenuPopupState.h" />
     <ClInclude Include="Player.h" />
