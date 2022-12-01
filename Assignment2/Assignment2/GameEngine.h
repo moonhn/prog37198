@@ -24,7 +24,7 @@ private:
 	const Uint8* m_iKeystates; //manages keystates
 
 	StateMachine* m_pFSM;
-	//GameManager* m_pGameManager;
+	GameManager* m_pGameManager;
 	bool m_bLeftMouse = false; // Keeps track of left mouse button state.
 	int m_iMouseX, m_iMouseY;  // Variables to hold mouse positions.
 

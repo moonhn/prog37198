@@ -24,13 +24,32 @@
   <ItemGroup>
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="GameLevel1.cpp" />
+    <ClCompile Include="GameLevel2.cpp" />
+    <ClCompile Include="GameLevel3.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="HealthBar.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenuState.cpp" />
+    <ClCompile Include="PauseMenuPopupState.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ProgressBar.cpp" />
+    <ClCompile Include="VictoryScreen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="GameLevel1.h" />
+    <ClInclude Include="GameLevel2.h" />
+    <ClInclude Include="GameLevel3.h" />
     <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="HealthBar.h" />
+    <ClInclude Include="MainMenuState.h" />
+    <ClInclude Include="PauseMenuPopupState.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="VictoryScreen.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -62,7 +81,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
