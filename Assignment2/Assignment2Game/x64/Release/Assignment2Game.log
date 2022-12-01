@@ -22,6 +22,6 @@ C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(135,5
 C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\VictoryScreen.cpp(85,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   Generating code
   Previous IPDB not found, fall back to full compilation.
-  All 219 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 940 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   Assignment2Game.vcxproj -> C:\Users\moonh\Desktop\prog37198\Assignment2\x64\Release\Assignment2Game.exe

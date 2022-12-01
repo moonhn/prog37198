@@ -2,6 +2,7 @@
 #include "SDL.h"
 #include "GameEngine.h"
 #include "GameManager.h"
+#include "MainMenuState.h"
 
 
 int main(int argc, char* argv[])
@@ -15,7 +16,7 @@ int main(int argc, char* argv[])
 		SDL_WINDOWPOS_CENTERED, 1024, 768, 0))
 		return -1; //close the application if initialization fails
 
-//	Game::Instance()->InitializeGame();
+	Game::Instance()->GetFSM()->ChangeState(new MainMenuState());
 
 
 
