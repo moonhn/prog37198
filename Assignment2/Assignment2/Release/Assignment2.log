@@ -1,0 +1,12 @@
+﻿  AudioManager.cpp
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\AudioManager.cpp(262,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  Button.cpp
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\Button.cpp(55,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  GameEngine.cpp
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\GameEngine.cpp(192,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  ScreenState.cpp
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\ScreenState.cpp(29,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  SpriteEx.cpp
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\SpriteEx.cpp(104,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  StateMachine.cpp
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2\StateMachine.cpp(65,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?

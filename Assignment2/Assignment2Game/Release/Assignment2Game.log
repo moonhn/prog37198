@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1092,5): error MSB6006: "link.exe" exited with code 1120.
+main.obj : error LNK2001: unresolved external symbol "public: void __thiscall Game::Clean(void)" (?Clean@Game@@QAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: void __thiscall Game::Render(void)" (?Render@Game@@QAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: void __thiscall Game::HandleEvents(void)" (?HandleEvents@Game@@QAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: void __thiscall Game::Update(void)" (?Update@Game@@QAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: bool __thiscall Game::IsRunning(void)" (?IsRunning@Game@@QAE_NXZ)
+main.obj : error LNK2001: unresolved external symbol "public: bool __thiscall Game::Init(char const *,int,int,int,int,int)" (?Init@Game@@QAE_NPBDHHHHH@Z)
+main.obj : error LNK2001: unresolved external symbol "public: static class Game * __cdecl Game::Instance(void)" (?Instance@Game@@SAPAV1@XZ)
+C:\Users\moonh\Desktop\prog37198\Assignment2\Release\Assignment2Game.exe : fatal error LNK1120: 7 unresolved externals

@@ -21,6 +21,22 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="ScreenState.h" />
+    <ClInclude Include="SpriteEx.h" />
+    <ClInclude Include="StateMachine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="ScreenState.cpp" />
+    <ClCompile Include="SpriteEx.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -118,6 +134,7 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile />
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -137,6 +154,7 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile />
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>
