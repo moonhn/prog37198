@@ -5,6 +5,9 @@ using namespace std;
 class GameManager
 {
 protected:
+	string _playerSprite;
+	string _enemySprite;
+
 	double _playerHealth = 100;
 	double _enemyHealth = 100;
 
@@ -50,5 +53,10 @@ public:
 	bool CheckGameOver(); // for all three levels
 	void SetGameStatus(bool isWinLose);
 	void SetGameOver(bool isOver); // for all three levels
+
+	void ChangePlayerSprite(string spriteAddress);
+	void ChangeEnemySprite(string spriteAddress);
+	const char* GetPlayerSprite() { return _playerSprite.c_str(); }
+	const char * GetEnemySprite() { return _enemySprite.c_str(); }
 
 };

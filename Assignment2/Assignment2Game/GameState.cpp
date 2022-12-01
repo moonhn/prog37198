@@ -2,11 +2,15 @@
 #include "GameEngine.h"
 #include "GameManager.h"
 #include "PauseMenuPopupState.h"
+
+using namespace std;
+
 void GameState::Enter()
 {
 	//bgSpriteTex = Game::Instance()->LoadTexture("Img/Levels/SF_Level_1.jpg");
-	mainSpriteTex = Game::Instance()->LoadTexture("Img/Players/PlayerKenSprite2.png");
-	enemySpriteTex = Game::Instance()->LoadTexture("Img/Players/EnemyKenSprite.png");
+	cout << "Entering GameState..." << endl;
+	mainSpriteTex = Game::Instance()->LoadTexture(GameManager::Instance()->GetPlayerSprite());
+	enemySpriteTex = Game::Instance()->LoadTexture(GameManager::Instance()->GetEnemySprite());
 
 
 	m_pFont = TTF_OpenFont("Font/spaceNorm.ttf", 35);
@@ -44,6 +48,7 @@ void GameState::Enter()
 
 void GameState::Update()
 {
+
 	if (Game::Instance()->KeyDown(SDL_SCANCODE_ESCAPE) == 1)
 	{
 		Game::Instance()->GetFSM()->PushState(new PauseMenuPopupState());

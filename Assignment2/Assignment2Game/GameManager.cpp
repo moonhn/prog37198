@@ -191,6 +191,16 @@ void GameManager::SetGameOver(bool isOver)
 	_isGameOver = isOver;
 };
 
+void GameManager::ChangePlayerSprite(string spriteAddress)
+{
+	_playerSprite = spriteAddress;
+}
+
+void GameManager::ChangeEnemySprite(string spriteAddress)
+{
+	_enemySprite = spriteAddress;
+}
+
 GameManager::~GameManager()
 {
 };

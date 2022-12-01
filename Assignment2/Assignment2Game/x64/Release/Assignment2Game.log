@@ -3,15 +3,16 @@
   GameLevel2.cpp
   GameLevel3.cpp
   GameManager.cpp
+  GameSetupState.cpp
   GameState.cpp
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(66,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(71,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(99,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(104,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(71,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(76,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(104,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(109,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(128,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(135,71): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(135,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(114,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(133,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(140,71): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(140,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   HealthBar.cpp
   main.cpp
   MainMenuState.cpp
@@ -22,6 +23,6 @@ C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\GameState.cpp(135,5
 C:\Users\moonh\Desktop\prog37198\Assignment2\Assignment2Game\VictoryScreen.cpp(85,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   Generating code
   Previous IPDB not found, fall back to full compilation.
-  All 940 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 945 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   Assignment2Game.vcxproj -> C:\Users\moonh\Desktop\prog37198\Assignment2\x64\Release\Assignment2Game.exe
