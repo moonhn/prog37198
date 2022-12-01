@@ -13,8 +13,4 @@ public:
 
 };
 
-class GameLevel3
-{
-};
-
 

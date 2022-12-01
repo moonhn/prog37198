@@ -12,7 +12,3 @@ public:
 
 };
 
-class GameLevel2
-{
-};
-

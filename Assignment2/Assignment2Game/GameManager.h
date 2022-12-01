@@ -20,6 +20,7 @@ protected:
 	bool _isGameOver = false;
 
 public:
+	static GameManager* Instance();
 
 	~GameManager();
 

@@ -1,6 +1,8 @@
 
 #include "SDL.h"
 #include "GameEngine.h"
+#include "GameManager.h"
+
 
 int main(int argc, char* argv[])
 {

@@ -7,6 +7,12 @@
 
 #include "ScreenState.h"
 
+GameManager* GameManager::Instance()
+{
+	static GameManager* instance = new GameManager();
+	return instance;
+}
+
 void GameManager::Update()
 {
 	if (_level == 4)

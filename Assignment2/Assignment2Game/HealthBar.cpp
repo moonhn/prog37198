@@ -1,5 +1,5 @@
 #include "HealthBar.h"
-#include "Game.h"
+#include "GameEngine.h"
 #include "SDL.h"
 #include "SDL_image.h"
 

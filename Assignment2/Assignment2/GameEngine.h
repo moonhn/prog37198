@@ -4,9 +4,7 @@
 #include "SDL_image.h"
 
 #include "SDL_mixer.h"  //required for audio
-//#include "GameManager.h"
 #include <vector>
-//#include "Player.h"
 #include "SDL_ttf.h"
 #include <string>
 #include "AudioManager.h"
@@ -24,7 +22,6 @@ private:
 	const Uint8* m_iKeystates; //manages keystates
 
 	StateMachine* m_pFSM;
-	GameManager* m_pGameManager;
 	bool m_bLeftMouse = false; // Keeps track of left mouse button state.
 	int m_iMouseX, m_iMouseY;  // Variables to hold mouse positions.
 
@@ -68,6 +65,5 @@ public:
 	void SetLeftMouse(bool b) { m_bLeftMouse = b; }
 
 	StateMachine* GetFSM() { return m_pFSM; }
-	//GameManager* GetGameManager() { return m_pGameManager; }
 	AudioManager* GetAM() { return m_pAM; }
 };

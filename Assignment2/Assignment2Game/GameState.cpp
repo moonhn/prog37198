@@ -1,5 +1,6 @@
 #include "GameState.h"
 #include "GameEngine.h"
+#include "GameManager.h"
 #include "PauseMenuPopupState.h"
 void GameState::Enter()
 {
@@ -62,12 +63,12 @@ void GameState::Update()
 	if (playerHealthBar)
 	{
 		playerHealthBar->SetMaxValue(100);
-		//playerHealthBar->UpdateCurrentValue(Game::Instance()->GetGameManager()->GetPlayerHealth());
+		playerHealthBar->UpdateCurrentValue(GameManager::Instance()->GetPlayerHealth());
 	}
 	if (enemyHealthBar)
 	{
 		enemyHealthBar->SetMaxValue(100);
-		//enemyHealthBar->UpdateCurrentValue(Game::Instance()->GetGameManager()->GetEnemyHealth());
+		enemyHealthBar->UpdateCurrentValue(GameManager::Instance()->GetEnemyHealth());
 	}
 
 }
@@ -92,17 +93,17 @@ void GameState::Render()
 	bgDestRect.x = bgDestRect.y = 0;
 	SDL_GetWindowSize(Game::Instance()->GetWindow(), &bgDestRect.w, &bgDestRect.h);
 
-	string s = to_string(Game::Instance()->GetGameManager()->GetPlayerScore())
-		+ " : " + to_string(Game::Instance()->GetGameManager()->GetEnemyScore());
+	string s = to_string(GameManager::Instance()->GetPlayerScore())
+		+ " : " + to_string(GameManager::Instance()->GetEnemyScore());
 
 	RenderFont(true, s.c_str(), bgDestRect.w * 0.47, 60);
 
-	if (Game::Instance()->GetGameManager()->GetLevel() <= 3)
+	if (GameManager::Instance()->GetLevel() <= 3)
 	{
-		string l = "Lvl. " + to_string(Game::Instance()->GetGameManager()->GetLevel());
+		string l = "Lvl. " + to_string(GameManager::Instance()->GetLevel());
 		RenderFont(true, l.c_str(), bgDestRect.w * 0.45, 20);
 	}
-	if (Game::Instance()->GetGameManager()->GetLevel() > 3)
+	if (GameManager::Instance()->GetLevel() > 3)
 	{
 		string l = "Lvl. 3";
 		RenderFont(true, l.c_str(), bgDestRect.w * 0.45, 20);
@@ -111,7 +112,7 @@ void GameState::Render()
 	m_pFont = TTF_OpenFont("Font/CurvedSquare-maRv.ttf", 35);
 
 	string r = "";
-	switch (Game::Instance()->GetGameManager()->GetRound())
+	switch (GameManager::Instance()->GetRound())
 	{
 	case 1:
 		r = "1 . .";
@@ -128,9 +129,9 @@ void GameState::Render()
 	m_pFont = TTF_OpenFont("Font/spaceNorm.ttf", 20);
 
 	string totalCtr = "Total Victory: ";
-	totalCtr = "Total Victory: " + to_string(Game::Instance()->GetGameManager()->GetPlayerSubScore())
+	totalCtr = "Total Victory: " + to_string(GameManager::Instance()->GetPlayerSubScore())
 		+ " (rounds)";
-	cout << Game::Instance()->GetGameManager()->GetPlayerSubScore();
+	cout << GameManager::Instance()->GetPlayerSubScore();
 	RenderFont(true, totalCtr.c_str(), bgDestRect.w * 0.36, bgDestRect.h * 0.22);
 
 	m_pFont = TTF_OpenFont("Font/spaceNorm.ttf", 35);
@@ -166,10 +167,10 @@ void GameState::CheckCollision()
 		enemy->CollisionCheck(true);
 		if (player->GetDamagePoint() > 0 && !enemy->IsDefending())
 		{
-			Game::Instance()->GetGameManager()->EnemyTakeDamage(player->GetDamagePoint());
+			GameManager::Instance()->EnemyTakeDamage(player->GetDamagePoint());
 		}
 
-		Game::Instance()->GetGameManager()->PlayerTakeDamage(enemy->GetDamagePoint());
+		GameManager::Instance()->PlayerTakeDamage(enemy->GetDamagePoint());
 	}
 	else
 	{
@@ -217,7 +218,7 @@ void GameState::CheckCollision()
 			player->DestroyProjectile(p);
 
 			player->SetDamagePoint(30); //ensure that other consecutive attack doesn't change the damage point of projectiles already fired
-			Game::Instance()->GetGameManager()->EnemyTakeDamage(player->GetDamagePoint());
+			GameManager::Instance()->EnemyTakeDamage(player->GetDamagePoint());
 
 			breakLoop = true;
 
@@ -255,7 +256,7 @@ void GameState::CheckCollision()
 			enemy->DestroyProjectile(p);
 
 			enemy->SetDamagePoint(30); //ensure that other consecutive attack doesn't change the damage point of projectiles already fired
-			Game::Instance()->GetGameManager()->PlayerTakeDamage(enemy->GetDamagePoint());
+			GameManager::Instance()->PlayerTakeDamage(enemy->GetDamagePoint());
 
 			breakLoop = true;
 
