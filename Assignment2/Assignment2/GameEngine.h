@@ -1,14 +1,16 @@
 #pragma once
+#include <SDL.h>
+#include <SDL_image.h>
+#include <SDL_ttf.h>
+#include <stdio.h>
+#include <string>
+#include <sstream>
+#include <iostream>
 #include "SpriteEx.h"
-#include "SDL.h"
-#include "SDL_image.h"
-
 #include "SDL_mixer.h"  //required for audio
 #include <vector>
-#include "SDL_ttf.h"
 #include <string>
 #include "AudioManager.h"
-
 #include "StateMachine.h"
 
 using namespace std;

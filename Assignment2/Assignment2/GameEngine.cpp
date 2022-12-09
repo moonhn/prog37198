@@ -1,6 +1,5 @@
 #include <iostream>
 #include "GameEngine.h"
-//#include "MainMenuState.h"
 #include "AudioManager.h"
 
 using namespace std;
@@ -15,6 +14,7 @@ Game* Game::Instance()
 
 bool Game::Init(const char* title, const int xPos, const int yPos, const int width, const int height,
 	const int flags)
+
 {
 	//0 means success
 	if (SDL_Init(SDL_INIT_EVERYTHING) == 0)

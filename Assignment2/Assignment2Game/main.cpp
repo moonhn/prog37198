@@ -26,8 +26,6 @@ int main(int argc, char* argv[])
 		Game::Instance()->Update();
 		Game::Instance()->Render();
 		SDL_Delay(10); //delay of 10 ms after every loop iteration
-
-
 	}
 	Game::Instance()->Clean();
 

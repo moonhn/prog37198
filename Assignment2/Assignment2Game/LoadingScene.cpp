@@ -62,11 +62,9 @@ void LoadingScene::Update()
 
 		if (progressBar->IsMaxedOut())
 		{
-			Game::Instance()->GetFSM()->ChangeState(new GameSetupState());
+			Game::Instance()->GetFSM()->ChangeState(new GameLevel1());
 			acculumatedTime = 0;
 		}
-
-		
 	}
 
 	/*
