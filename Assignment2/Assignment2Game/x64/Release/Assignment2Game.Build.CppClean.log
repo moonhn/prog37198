@@ -1,37 +1,11 @@
-<<<<<<< HEAD
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\vc142.pdb
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\victoryscreen.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\progressbar.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\player.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\pausemenupopupstate.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\mainmenustate.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\main.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\healthbar.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\gamestate.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\gamemanager.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\gamelevel3.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\gamelevel2.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\gamelevel1.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\enemy.obj
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\loadingscene.obj
-c:\users\nguye\documents\game\assignment2\x64\release\assignment2game.exe
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\assignment2game.ipdb
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\assignment2game.iobj
-c:\users\nguye\documents\game\assignment2\x64\release\assignment2game.pdb
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\assignment2game.tlog\cl.command.1.tlog
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\assignment2game.tlog\cl.read.1.tlog
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\assignment2game.tlog\cl.write.1.tlog
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\assignment2game.tlog\link.command.1.tlog
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\assignment2game.tlog\link.read.1.tlog
-c:\users\nguye\documents\game\assignment2\assignment2game\x64\release\assignment2game.tlog\link.write.1.tlog
-=======
-c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\vc143.pdb
+c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\vc142.pdb
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\victoryscreen.obj
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\progressbar.obj
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\player.obj
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\pausemenupopupstate.obj
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\mainmenustate.obj
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\main.obj
+c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\loadingscene.obj
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\healthbar.obj
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\gamestate.obj
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\gamesetupstate.obj
@@ -50,4 +24,3 @@ c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\assignm
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\assignment2game.tlog\link.command.1.tlog
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\assignment2game.tlog\link.read.1.tlog
 c:\users\moonh\desktop\prog37198\assignment2\assignment2game\x64\release\assignment2game.tlog\link.write.1.tlog
->>>>>>> c3f70d6428eb94b9f51e2836e003808388233434

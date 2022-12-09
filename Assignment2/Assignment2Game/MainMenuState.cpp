@@ -21,7 +21,7 @@ void MainMenuState::Update()
 
 	if (m_vButtons[btn::play]->Clicked())
 	{
-		//we need to switch to gamestate ... 
+		//we need to switch to gamestate ...
 		Game::Instance()->GetFSM()->ChangeState(new LoadingScene());
 	}
 

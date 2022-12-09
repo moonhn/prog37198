@@ -2,6 +2,7 @@
 #include "GameEngine.h"
 #include "GameLevel1.h"
 #include "GameManager.h"
+#include "LoadingScene.h"
 
 void GameSetupState::Enter()
 {
@@ -30,8 +31,9 @@ void GameSetupState::Update()
 
 	else if (m_vButtons[btn::p2]->Clicked())
 	{
-		SDL_Delay(500);
-		Game::Instance()->QuitGame();
+		GameManager::Instance()->ChangePlayerSprite("Img/Players/EnemyKenSprite.png");
+		GameManager::Instance()->ChangeEnemySprite("Img/Players/PlayerKenSprite2.png");
+		Game::Instance()->GetFSM()->ChangeState(new GameLevel1());
 	}
 	else if (m_vButtons[btn::p3]->Clicked())
 	{

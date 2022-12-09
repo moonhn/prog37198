@@ -3,6 +3,7 @@
 #include "GameEngine.h"
 #include "GameLevel1.h"
 #include "MainMenuState.h"
+#include "GameSetupState.h"
 using namespace std;
 
 Uint64 currentTime = SDL_GetPerformanceCounter();// re-start timer whenever entering pause menu for demonstration purpose
@@ -33,7 +34,7 @@ void LoadingScene::Enter()
 	progressBar->progressBarFill = new ProgressBar(progressBarTex, 310, 400);
 
 	Game::Instance()->GetAM()->ToggleMusic();
-
+	
 }
 
 void LoadingScene::Update()
@@ -57,13 +58,15 @@ void LoadingScene::Update()
 		}
 		else progressBar->UpdateCurrentValue(0);
 
+		progressBar->SetMaxValue(100);
 
 		if (progressBar->IsMaxedOut())
 		{
+			Game::Instance()->GetFSM()->ChangeState(new GameSetupState());
 			acculumatedTime = 0;
 		}
 
-		progressBar->SetMaxValue(100);
+		
 	}
 
 	/*
